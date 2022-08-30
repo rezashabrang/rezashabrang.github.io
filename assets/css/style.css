@@ -359,7 +359,7 @@ span.single-timeline-horizontal {
     display:  inline-block;
     background: #b2c1ce;
     height:  1px;
-    width: 380px;
+    width: 1000px;
 }
 span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 /*.timeline-horizontal-border*/
@@ -500,6 +500,9 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 .main-timeline .description {
     font-size: 14px;
     color: #999fb3;
+}
+p.description{
+    max-width: unset;
 }
 .main-timeline .timeline-content.right{
     float: right;
