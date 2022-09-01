@@ -361,7 +361,7 @@ span.single-timeline-horizontal {
     height:  1px;
     width: 1000px;
 }
-span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
+span.single-timeline-horizontal.spacial-horizontal-line {width: 500px;}
 /*.timeline-horizontal-border*/
 
 /*.education-horizontal-timeline*/
@@ -855,4 +855,31 @@ p.description{
     0%   {bottom:0px;}
     100%  {bottom:7px;}
 }
-/*========================Thank you=================
+/* My CSS */
+.teaching {
+    background: white !important
+}
+.badge {
+    background-color: #d92cf9;
+}
+.badge-python {
+    background-color: rgb(223, 223, 61);
+}
+.academic-proj:hover {
+    transition: 0.5s;
+    background-color: #f9fbfd
+}
+#languages {
+    background-color: #f9fbfd;
+}
+
+#skills {
+    background-color: white;
+}
+#honors {
+    background-color: #f9fbfd;
+}
+#profiles {
+    background-color: #f9fbfd;
+}
+/*========================Thank you=================*/
