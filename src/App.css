@@ -36,3 +36,38 @@
     transform: rotate(360deg);
   }
 }
+
+
+.badge-container {
+  display: flex;
+  justify-content: left;
+  margin-top: 20px;
+}
+
+.badge-gpt {
+  font-size: 15px;
+  font-weight: bold;
+  /* text-transform: uppercase; */
+  padding: 5px 10px;
+  margin-right: 20px;
+  border-radius: 5px;
+}
+
+.blue {
+  color: #ffffff;
+  background-color: #3498db;
+}
+
+.green {
+  color: #ffffff;
+  background-color: #2ecc71;
+}
+
+.yellow {
+  color: #ffffff;
+  background-color: #808080;
+}
+
+h3 {
+  font-size: 25px;
+}
