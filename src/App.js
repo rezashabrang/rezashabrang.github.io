@@ -1,8 +1,8 @@
-import { Link } from 'react-router-dom';
 import React, { useState } from 'react';
 import AcademicResume from './academic';
 import JobResume from './job';
 import './App.css';
+import './index.css';
 
 
 
@@ -31,10 +31,8 @@ const App = () => {
         </div>
       )}
 
-      <div>
-        {showAcademicResume && <AcademicResume />}
-        {showJobResume && <JobResume />}
-      </div>
+      {showAcademicResume && <AcademicResume />}
+      {showJobResume && <JobResume />}
     </>
 
   );
