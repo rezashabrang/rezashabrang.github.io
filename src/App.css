@@ -71,3 +71,34 @@
 h3 {
   font-size: 25px;
 }
+
+
+.intro-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.intro-content {
+  text-align: center;
+}
+
+.neon-button {
+  background-color: transparent;
+  border: 2px solid #00509e; /* Darker blue color for border */
+  color: #00509e; /* Darker blue color for text */
+  font-size: 16px;
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: all 0.3s ease-in-out;
+}
+
+.neon-button:hover {
+  background-color: #00509e; /* Darker blue color for background on hover */
+  color: #fff; /* White color for text on hover */
+  box-shadow: 0 0 10px #00509e, 0 0 20px #00509e, 0 0 40px #00509e;
+}
+
