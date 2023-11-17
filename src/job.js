@@ -63,7 +63,9 @@ function JobResume() {
 							<div className="col-sm-6">
 								<div className="single-about-txt">
 									<p className='font-weight-bold text-justify'>
-										<b>I am a Python developer working in the field of data science and machine learning. I always try to be up to date with state of art problems and models in AI like GANs, Transformers, Stable Diffusion, and Few-Shot Learning. I am looking for a position to extract insights from data and create fairly accurate predictive models and also handle the MLOps part for deploying & monitoring ML products. I'm eager to close the gap between research and product in Machine Learning world by creating robust and scalable APIs for ML models. </b>
+										<b>I am a python developer working in the field of data science and machine learning. I've studied so much about AI in the past years and I’m always learning state of art cocepts and models in ML like CNN, GANs, Transformers, Transfer Learning, Reinforcement Learning, Few-Shot Learning and MLOps. I have developed and worked on various ML projects, details for some of them can be viewed in projects section.
+											I'm experienced in data engineering field, developing APIs (FastAPI), working with & querying databases (SQL, NoSQL, Graph).
+											I also have minor experiences in micro-services, backend development, infosec, software engineering, frontend (React), trading and cryptocurrency.</b>
 									</p>
 									<div className="row">
 										<div className="col-sm-6">
@@ -247,6 +249,9 @@ function JobResume() {
 							<span class="badge-gpt yellow">Django</span>
 							<span class="badge-gpt yellow">PyCaret</span>
 							<span class="badge-gpt yellow">NodeJS</span>
+							<span class="badge-gpt yellow">MetaFlow</span>
+							<span class="badge-gpt yellow">MLFlow</span>
+							<span class="badge-gpt yellow">React</span>
 						</div>
 					</div>
 					<br></br>
@@ -288,11 +293,16 @@ function JobResume() {
 					<div class="row">
 						<div class="badge-container">
 							<span class="badge-gpt yellow">MLOPS</span>
+							<span class="badge-gpt yellow">InfoSec</span>
 							<span class="badge-gpt yellow">Microservices</span>
 							<span class="badge-gpt yellow">Cryptocurrencies</span>
 							<span class="badge-gpt yellow">Algorithmic Trading</span>
 							<span class="badge-gpt yellow">TDD</span>
 							<span class="badge-gpt yellow">SOLID</span>
+						</div>
+					</div>
+					<div class="row">
+						<div class="badge-container">
 							<span class="badge-gpt yellow">Backend Developement</span>
 							<span class="badge-gpt yellow">Scraping</span>
 						</div>
@@ -327,6 +337,13 @@ function JobResume() {
 				<br></br><br></br>
 				<div className="container">
 					<div class="list-group text-left">
+						<div class="list-group-item list-group-flush list-group-item-action flex-column align-items-start academic-proj border-top border-bottm">
+							<div class="w-100 justify-content-between">
+								<h5 class="mb-1">Aasaam Core NLP and MLOps Ecosystem</h5>
+							</div>
+							<p class="mb-1">Implementing a core NLP system for various goals like sentiment analysis, NER, tag generation and etc for aasaam CMS using Python, FastAPI, MySQL, Label Studio, MongoDB, React, NGINX and leveraging MLOps tools (MLFlow and Metaflow) for standardizing experiments and pipeline orchestration of machine learning workflows.</p>
+							<p class="mb-1"><span class="badge badge-pill">MLOps</span> <span class="badge badge-pill">NLP</span> <span class="badge badge-pill">System Design</span> <span class="badge badge-pill">React</span> <span class="badge badge-pill">Docker</span></p>
+						</div>
 						<div class="list-group-item list-group-flush list-group-item-action flex-column align-items-start academic-proj border-top border-bottm">
 							<div class="w-100 justify-content-between">
 								<h5 class="mb-1">Finding Intents and Topics of a List of Keywords</h5>
@@ -614,32 +631,54 @@ function JobResume() {
 					<div className="container">
 						<div className="profiles-content">
 							<div className="row">
-								<div className="col-sm-6">
+								<div className="col-sm-4">
 									<div className="single-profile">
-										<div className="profile-txt">
-											<a href='https://www.linkedin.com/in/reza-shabrang-maryaan-35466b9b/' target="_blank"><i className="fa fa-linkedin"></i></a>
-											<div className="profile-icon-name">LinkedIn</div>
-										</div>
-										<div className="single-profile-overlay">
+										<a href='https://www.linkedin.com/in/reza-shabrang-maryaan-35466b9b/' target="_blank">
 											<div className="profile-txt">
-												<a href='https://www.linkedin.com/in/reza-shabrang-maryaan-35466b9b/' target="_blank"><i className="fa fa-linkedin"></i></a>
+												<i className="fa fa-linkedin"></i>
 												<div className="profile-icon-name">LinkedIn</div>
 											</div>
-										</div>
+											<div className="single-profile-overlay">
+												<div className="profile-txt">
+													<a href='https://www.linkedin.com/in/reza-shabrang-maryaan-35466b9b/' target="_blank"><i className="fa fa-linkedin"></i></a>
+													<div className="profile-icon-name">LinkedIn</div>
+												</div>
+											</div>
+										</a>
+									</div>
+
+								</div>
+								<div className="col-sm-4">
+									<div className="single-profile">
+										<a href='https://medium.com/@rezashabrang.m' target="_blank">
+											<div className="profile-txt">
+												<i className="fa fa-medium"></i>
+												<div className="profile-icon-name">Medium</div>
+											</div>
+											<div className="single-profile-overlay">
+												<div className="profile-txt">
+													<a href='https://medium.com/@rezashabrang.m' target="_blank"><i className="fa fa-medium"></i></a>
+													<div className="profile-icon-name">Medium</div>
+												</div>
+											</div>
+										</a>
+
 									</div>
 								</div>
-								<div className="col-sm-6">
+								<div className="col-sm-4">
 									<div className="single-profile profile-no-border">
-										<div className="profile-txt">
-											<a href='https://github.com/rezashabrang' target="_blank"><i className="flaticon-github-logo"></i></a>
-											<div className="profile-icon-name">github</div>
-										</div>
-										<div className="single-profile-overlay">
+										<a href='https://github.com/rezashabrang' target="_blank">
 											<div className="profile-txt">
-												<a href='https://github.com/rezashabrang' target="_blank"><i className="flaticon-github-logo"></i></a>
+												<i className="flaticon-github-logo"></i>
 												<div className="profile-icon-name">github</div>
 											</div>
-										</div>
+											<div className="single-profile-overlay">
+												<div className="profile-txt">
+													<a href='https://github.com/rezashabrang' target="_blank"><i className="flaticon-github-logo"></i></a>
+													<div className="profile-icon-name">github</div>
+												</div>
+											</div>
+										</a>
 									</div>
 								</div>
 							</div>

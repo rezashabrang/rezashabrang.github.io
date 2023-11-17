@@ -8,7 +8,7 @@ import './index.css';
 
 const App = () => {
   const [showAcademicResume, setShowAcademicResume] = useState(false);
-  const [showJobResume, setShowJobResume] = useState(false);
+  const [showJobResume, setShowJobResume] = useState(true);
 
   const handleAcademicButtonClick = () => {
     setShowAcademicResume(true);
