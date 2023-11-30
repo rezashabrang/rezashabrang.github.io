@@ -108,7 +108,7 @@ function JobResume() {
                       <div className="col-md-5">
                         <div className="experience-time text-right">
                           <h2>2021 - Present</h2>
-                          <h3>Data Scientist</h3>
+                          <h3>ML Engineer</h3>
                         </div>
                       </div>
                       <div className="col-md-offset-1 col-md-5">
@@ -346,10 +346,10 @@ function JobResume() {
             </div>
             <div class="list-group-item list-group-flush list-group-item-action flex-column align-items-start academic-proj border-top border-bottm">
               <div class="w-100 justify-content-between">
-                <h5 class="mb-1">Finding Intents and Topics of a List of Keywords</h5>
+                <h5 class="mb-1">Penguin Keyword Mapper System</h5>
               </div>
-              <p class="mb-1">Using graph theory and unsupervised learning to cluster a list of keywords.</p>
-              <p class="mb-1"><span class="badge badge-pill">Graph Theory</span> <span class="badge badge-pill">Spectral Clustering</span> <span class="badge badge-pill">ArangoDB</span> <span class="badge badge-pill">NetworkX</span></p>
+              <p class="mb-1">Building a system with micro-service architecture using NATS, ArangoDB, NodeJS and Python for clustering a large list of keywords and phrases by using graph data structure and unsupervised graph clustering method (spectral clustering)</p>
+              <p class="mb-1"><span class="badge badge-pill">Graph Theory</span> <span class="badge badge-pill">Spectral Clustering</span> <span class="badge badge-pill">ArangoDB</span> <span class="badge badge-pill">NetworkX</span> <span class="badge badge-pill">NATS</span> <span class="badge badge-pill">NodeJS</span></p>
             </div>
 
             <div class="list-group-item list-group-flush list-group-item-action flex-column align-items-start academic-proj border-top border-bottm">
@@ -362,8 +362,9 @@ function JobResume() {
 
             <div class="list-group-item list-group-flush list-group-item-action flex-column align-items-start academic-proj border-top border-bottm">
               <div class="w-100 justify-content-between">
-                <h5 class="mb-1">Covid Density Prediction per Region using Various Time Series Models (PROPHET, RNN, LSTM, Naïve Bayes)</h5>
+                <h5 class="mb-1">Covid Density Prediction</h5>
               </div>
+              <p class="mb-1">Predicting the density of corona per region by researching various time-series models in DARTS python library.</p>
               <p class="mb-1"><span class="badge badge-pill">Time Series</span> <span class="badge badge-pill">PROPHET</span> <span class="badge badge-pill">RNN</span> <span class="badge badge-pill">LSTM</span> <span class="badge badge-pill">DARTS</span></p>
             </div>
 
@@ -374,25 +375,6 @@ function JobResume() {
               <p class="mb-1">In this thesis data was extracted from msp files, preprocessed, analyzed and after extracting insights several models were trained on it. The results shows that using ML methods in cost prediction outperforms traditional predictions.<br /> <a href='https://github.com/rezashabrang/construction-prediction'>GITHUB LINK</a></p>
               <p class="mb-1"><span class="badge badge-pill">Bachelor Thesis</span> <span class="badge badge-pill">Decision Tree</span> <span class="badge badge-pill">XGBoost</span> <span class="badge badge-pill">Neural Networks</span></p>
             </div>
-
-            <div class="list-group-item list-group-flush list-group-item-action flex-column align-items-start academic-proj border-top border-bottm">
-              <div class="w-100 justify-content-between">
-                <h5 class="mb-1">Simulating a POS Company Using MATLAB and Developing a GUI for Analyzing Results</h5>
-              </div>
-              <p class="mb-1"><span class="badge badge-pill">Simulation</span> <span class="badge badge-pill">MATLAB</span> <span class="badge badge-pill">GUI</span></p>
-            </div>
-            <div class="list-group-item list-group-flush list-group-item-action flex-column align-items-start academic-proj border-top border-bottm">
-              <div class="w-100 justify-content-between">
-                <h5 class="mb-1">House Price Prediction (kaggle competition)</h5>
-              </div>
-              <p class="mb-1"><span class="badge badge-pill">kaggle</span> <span class="badge badge-pill">prediction</span></p>
-            </div>
-            <div class="list-group-item list-group-flush list-group-item-action flex-column align-items-start academic-proj border-top border-bottm">
-              <div class="w-100 justify-content-between">
-                <h5 class="mb-1">Predicting Stock Market using ARIMA Model</h5>
-              </div>
-              <p class="mb-1"><span class="badge badge-pill">Time Series</span> <span class="badge badge-pill">ARIMA</span></p>
-            </div>
           </div>
         </div>
 
@@ -401,7 +383,7 @@ function JobResume() {
 
       <section id="courses" className="education">
         <div className="section-heading text-center">
-          <h2>Courses & Certificates</h2>
+          <h2>Courses & Reading</h2>
         </div>
         <br></br><br></br>
         <div className="container">
@@ -413,6 +395,7 @@ function JobResume() {
                   <small>2022-2023</small><br />
                   <small>Ongoing</small><br />
                   <small>Coursera/Deeplearning.ai</small>
+                  <p class="mb-1"><span class="badge badge-pill">Tensorflow</span> <span class="badge badge-pill">Saliency</span> <span class="badge badge-pill">Object Detection</span> <span class="badge badge-pill">Image Segmentation</span> <span class="badge badge-pill">Image Interpretation</span></p>
                 </div>
               </div>
               <div class="list-group-item list-group-flush list-group-item-action flex-column align-items-start academic-proj border-top border-bottm">
@@ -421,14 +404,67 @@ function JobResume() {
                   <small>2022-2023</small><br />
                   <small>2 months (Audit)</small><br />
                   <small>Coursera/Deeplearning.ai</small>
+                  <p class="mb-1"><span class="badge badge-pill">Tensorflow</span> <span class="badge badge-pill">Concept & Data Drift</span> <span class="badge badge-pill">Pipeline Structuring</span> <span class="badge badge-pill">Model & Data Registry</span> <span class="badge badge-pill">Model Monitoring</span></p>
                 </div>
               </div>
+              <div class="list-group-item list-group-flush list-group-item-action flex-column align-items-start academic-proj border-top border-bottm">
+                <div class="w-100 justify-content-between">
+                  <h5 class="mb-1">InfoSec Course</h5>
+                  <small>2023</small><br />
+                  <small>1 Year</small><br />
+                  <small>Aasaam</small>
+                  <p class="mb-1"><span class="badge badge-pill">Recon</span> <span class="badge badge-pill">Burp Suite</span> <span class="badge badge-pill">XSS-Based Attacks</span> <span class="badge badge-pill">SQLi</span> <span class="badge badge-pill">IDOR</span> <span class="badge badge-pill">Logical Hunting</span> <span class="badge badge-pill">APIs</span></p>
+                </div>
+              </div>
+
+              <div class="list-group-item list-group-flush list-group-item-action flex-column align-items-start academic-proj border-top border-bottm">
+                <div class="w-100 justify-content-between">
+                  <h5 class="mb-1">Designing Machine Learning Systems</h5>
+                  <small>Chip Huyen</small>
+                  <p class="mb-1"><span class="badge badge-pill">MLOps</span> <span class="badge badge-pill">AutoML</span> <span class="badge badge-pill">Continual Learning</span> <span class="badge badge-pill">Infrastructure</span></p>
+                </div>
+              </div>
+
+
+              <div class="list-group-item list-group-flush list-group-item-action flex-column align-items-start academic-proj border-top border-bottm">
+                <div class="w-100 justify-content-between">
+                  <h5 class="mb-1">Building Microservices</h5>
+                  <small>Sam Newman</small>
+                  <p class="mb-1"><span class="badge badge-pill">Modeling</span> <span class="badge badge-pill">Communication Styles</span> <span class="badge badge-pill">Workflow</span> <span class="badge badge-pill">Resiliency</span> <span class="badge badge-pill">Scaling</span></p>
+                </div>
+              </div>
+
+              <div class="list-group-item list-group-flush list-group-item-action flex-column align-items-start academic-proj border-top border-bottm">
+                <div class="w-100 justify-content-between">
+                  <h5 class="mb-1">High Performance MySQL</h5>
+                  <small>Silvia Botros</small>
+                  <p class="mb-1"><span class="badge badge-pill">Monitoring</span> <span class="badge badge-pill">Server Optimization</span> <span class="badge badge-pill">Query Optimization</span> <span class="badge badge-pill">Indexing</span> <span class="badge badge-pill">Sharding</span> <span class="badge badge-pill">Replication</span> <span class="badge badge-pill">Scaling</span></p>
+                </div>
+              </div>
+
+              <div class="list-group-item list-group-flush list-group-item-action flex-column align-items-start academic-proj border-top border-bottm">
+                <div class="w-100 justify-content-between">
+                  <h5 class="mb-1">Mathematics for Machine Learning</h5>
+                  <small>Marc Peter Deisenroth</small>
+                  <p class="mb-1"><span class="badge badge-pill">Mathematics</span> <span class="badge badge-pill">Linear Algebra</span> <span class="badge badge-pill">Vector Calculus</span></p>
+                </div>
+              </div>
+
+              <div class="list-group-item list-group-flush list-group-item-action flex-column align-items-start academic-proj border-top border-bottm">
+                <div class="w-100 justify-content-between">
+                  <h5 class="mb-1">Machine Learning Design Patterns</h5>
+                  <small>Valliappa Lakshmanan</small>
+                  <p class="mb-1"><span class="badge badge-pill">ML Design Patterns</span></p>
+                </div>
+              </div>
+
               <div class="list-group-item list-group-flush list-group-item-action flex-column align-items-start academic-proj border-top border-bottm">
                 <div class="w-100 justify-content-between">
                   <h5 class="mb-1">Deep Learning Specialization</h5>
                   <small>2021</small><br />
                   <small>3 months (Audit)</small><br />
                   <small>Coursera/Deeplearning.ai</small>
+                  <p class="mb-1"><span class="badge badge-pill">Model Tuning</span> <span class="badge badge-pill">Architecture Building</span> <span class="badge badge-pill">Tensorflow</span></p>
                 </div>
               </div>
               <div class="list-group-item list-group-flush list-group-item-action flex-column align-items-start academic-proj border-top border-bottm">
@@ -437,6 +473,7 @@ function JobResume() {
                   <small>2020</small><br />
                   <small>3 months</small><br />
                   <small>Quera.ir</small>
+                  <p class="mb-1"><span class="badge badge-pill">Algorithms</span> <span class="badge badge-pill">Data Structures</span> <span class="badge badge-pill">Time & Space Complexity</span></p>
                 </div>
               </div>
               <div class="list-group-item list-group-flush list-group-item-action flex-column align-items-start academic-proj border-top border-bottm">
@@ -445,6 +482,7 @@ function JobResume() {
                   <small>2018</small><br />
                   <small>3 months</small><br />
                   <small>Quera.ir</small>
+                  <p class="mb-1"><span class="badge badge-pill">scikit-learn</span> <span class="badge badge-pill">XGBoost</span> <span class="badge badge-pill">Classical ML</span></p>
                 </div>
               </div>
               <div class="list-group-item list-group-flush list-group-item-action flex-column align-items-start academic-proj border-top border-bottm">
@@ -453,6 +491,7 @@ function JobResume() {
                   <small>2018</small><br />
                   <small>3 months</small><br />
                   <small>Quera.ir</small>
+                  <p class="mb-1"><span class="badge badge-pill">Python</span></p>
                 </div>
               </div>
               <div class="list-group-item list-group-flush list-group-item-action flex-column align-items-start academic-proj border-top border-bottm">
@@ -461,6 +500,7 @@ function JobResume() {
                   <small>2019</small><br />
                   <small>56 hours</small><br />
                   <small>Tehran Univeristy</small>
+                  <p class="mb-1"><span class="badge badge-pill">Android Studio</span></p>
                 </div>
               </div>
 
@@ -506,11 +546,11 @@ function JobResume() {
                 <div className="col-sm-4">
                   <div className="single-profile profile-no-border">
                     <div className="profile-txt">
-                      <div className="profile-icon-name"><b>NLP</b></div>
+                      <div className="profile-icon-name"><b>Software Engineering</b></div>
                     </div>
                     <div className="single-profile-overlay">
                       <div className="profile-txt">
-                        <div className="profile-icon-name"><b>NLP</b></div>
+                        <div className="profile-icon-name"><b>Software Engineering</b></div>
                       </div>
                     </div>
                   </div>
@@ -533,11 +573,11 @@ function JobResume() {
                 <div className="col-sm-4">
                   <div className="single-profile">
                     <div className="profile-txt">
-                      <div className="profile-icon-name"><b>Optimization</b></div>
+                      <div className="profile-icon-name"><b>MLOps</b></div>
                     </div>
                     <div className="single-profile-overlay">
                       <div className="profile-txt">
-                        <div className="profile-icon-name"><b>Optimization</b></div>
+                        <div className="profile-icon-name"><b>MLOps</b></div>
                       </div>
                     </div>
                   </div>
