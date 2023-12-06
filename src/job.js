@@ -119,7 +119,7 @@ function JobResume() {
                               Aasaam
                             </h4>
                             <p className="description">
-                              Working with healthcare data, processing and creating data pipelines, Time Series prediction for Covid Density, Working with Transformers, Word Vectors, Performing Transfer Learning & Sentiment Analysis ,Image Processing (Explicit Content Detection, Scale Up models)
+                              Data engineering, Time Series prediction for Covid density, working with Transformers, word vectors, performing transfer learning & sentiment analysis, image processing, working with graph data structure, utilizing messaging systems, building company MLOps ecosystem.
                             </p>
                           </div>
                         </div>
@@ -146,7 +146,7 @@ function JobResume() {
                             </h4>
                             <h5>Remote, USA</h5>
                             <p className="description">
-                              Researching US electric market, Identifying data and Extracting, Transforming and Loading market data.
+                              Researching US electric market, identifying data and extracting, transforming and loading market data.
                             </p>
                           </div>
                         </div>
@@ -172,7 +172,7 @@ function JobResume() {
                               AhanOnline
                             </h4>
                             <p className="description">
-                              Working with sql-server, power BI and python, writing complex queries, API handling and Python Scraping, Implementing an ARIMA model for predicting Steel and Iron price, Building Dashboards and Analyzing customer data, working with SSMS, SSIS and SSRS.
+                              Working with sql-server, power BI and python, writing complex queries, API handling and python scraping, implementing an ARIMA model for predicting steel and iron price, building dashboards and analyzing customer data, working with SSMS, SSIS and SSRS.
                             </p>
                           </div>
                         </div>
@@ -404,15 +404,6 @@ function JobResume() {
                 </div>
               </div>
 
-
-              <div class="list-group-item list-group-flush list-group-item-action flex-column align-items-start academic-proj border-top border-bottm">
-                <div class="w-100 justify-content-between">
-                  <h5 class="mb-1">Building Microservices <span class="badge-c-r book">book</span></h5>
-                  <small>Sam Newman</small>
-                  <p class="mb-1"><span class="badge badge-pill">Modeling</span> <span class="badge badge-pill">Communication Styles</span> <span class="badge badge-pill">Workflow</span> <span class="badge badge-pill">Resiliency</span> <span class="badge badge-pill">Scaling</span></p>
-                </div>
-              </div>
-
               <div class="list-group-item list-group-flush list-group-item-action flex-column align-items-start academic-proj border-top border-bottm">
                 <div class="w-100 justify-content-between">
                   <h5 class="mb-1">Deep Learning Specialization <span class="badge-c-r course">course</span></h5>
@@ -425,9 +416,27 @@ function JobResume() {
 
               <div class="list-group-item list-group-flush list-group-item-action flex-column align-items-start academic-proj border-top border-bottm">
                 <div class="w-100 justify-content-between">
+                  <h5 class="mb-1">Building Microservices <span class="badge-c-r book">book</span></h5>
+                  <small>Sam Newman</small>
+                  <p class="mb-1"><span class="badge badge-pill">Modeling</span> <span class="badge badge-pill">Communication Styles</span> <span class="badge badge-pill">Workflow</span> <span class="badge badge-pill">Resiliency</span> <span class="badge badge-pill">Scaling</span></p>
+                </div>
+              </div>
+
+              <div class="list-group-item list-group-flush list-group-item-action flex-column align-items-start academic-proj border-top border-bottm">
+                <div class="w-100 justify-content-between">
                   <h5 class="mb-1">High Performance MySQL <span class="badge-c-r book">book</span></h5>
                   <small>Silvia Botros</small>
                   <p class="mb-1"><span class="badge badge-pill">Monitoring</span> <span class="badge badge-pill">Server Optimization</span> <span class="badge badge-pill">Query Optimization</span> <span class="badge badge-pill">Indexing</span> <span class="badge badge-pill">Sharding</span> <span class="badge badge-pill">Replication</span> <span class="badge badge-pill">Scaling</span></p>
+                </div>
+              </div>
+
+              <div class="list-group-item list-group-flush list-group-item-action flex-column align-items-start academic-proj border-top border-bottm">
+                <div class="w-100 justify-content-between">
+                  <h5 class="mb-1">Advanced Algorithmic Thinking and Data Structures <span class="badge-c-r course">course</span></h5>
+                  <small>2020</small><br />
+                  <small>3 months</small><br />
+                  <small>Quera.ir</small>
+                  <p class="mb-1"><span class="badge badge-pill">Algorithms</span> <span class="badge badge-pill">Data Structures</span> <span class="badge badge-pill">Time & Space Complexity</span></p>
                 </div>
               </div>
 
@@ -449,16 +458,7 @@ function JobResume() {
 
               <div class="list-group-item list-group-flush list-group-item-action flex-column align-items-start academic-proj border-top border-bottm">
                 <div class="w-100 justify-content-between">
-                  <h5 class="mb-1">Advanced Algorithmic Thinking and Data Structures <span class="badge-c-r course">course</span></h5>
-                  <small>2020</small><br />
-                  <small>3 months</small><br />
-                  <small>Quera.ir</small>
-                  <p class="mb-1"><span class="badge badge-pill">Algorithms</span> <span class="badge badge-pill">Data Structures</span> <span class="badge badge-pill">Time & Space Complexity</span></p>
-                </div>
-              </div>
-              <div class="list-group-item list-group-flush list-group-item-action flex-column align-items-start academic-proj border-top border-bottm">
-                <div class="w-100 justify-content-between">
-                  <h5 class="mb-1"><a href="https://quera.org/certificate/Vyos8FV5/">AI & Machine learning Problem-Based Course</a> <span class="badge-c-r course">course</span></h5>
+                  <h5 class="mb-1"><a target='_blank' href="https://quera.org/certificate/Vyos8FV5/">AI & Machine learning Problem-Based Course</a> <span class="badge-c-r course">course</span></h5>
                   <small>2018</small><br />
                   <small>3 months</small><br />
                   <small>Quera.ir</small>
@@ -467,7 +467,7 @@ function JobResume() {
               </div>
               <div class="list-group-item list-group-flush list-group-item-action flex-column align-items-start academic-proj border-top border-bottm">
                 <div class="w-100 justify-content-between">
-                  <h5 class="mb-1"><a href="https://quera.org/certificate/gLshE6uR/">Advanced Python Programming</a> <span class="badge-c-r course">course</span></h5>
+                  <h5 class="mb-1"><a target='_blank' href="https://quera.org/certificate/gLshE6uR/">Advanced Python Programming</a> <span class="badge-c-r course">course</span></h5>
                   <small>2018</small><br />
                   <small>3 months</small><br />
                   <small>Quera.ir</small>
@@ -480,7 +480,7 @@ function JobResume() {
                   <small>2019</small><br />
                   <small>56 hours</small><br />
                   <small>Tehran Univeristy</small>
-                  <p class="mb-1"><span class="badge badge-pill">Android Studio</span></p>
+                  <p class="mb-1"><span class="badge badge-pill">Android Studio</span> <span class="badge badge-pill">Java</span></p>
                 </div>
               </div>
 
