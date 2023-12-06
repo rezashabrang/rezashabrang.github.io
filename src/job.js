@@ -218,20 +218,12 @@ function JobResume() {
               <span class="badge-gpt blue">OpenCV</span>
               <span class="badge-gpt blue">DARTS</span>
               <span class="badge-gpt blue">PROPHET</span>
-            </div>
-          </div>
-          <div class="row">
-            <div class="badge-container">
               <span class="badge-gpt blue">ArangoDB</span>
               <span class="badge-gpt blue">MongoDB</span>
               <span class="badge-gpt blue">MySQL</span>
               <span class="badge-gpt blue">PostgreSQL</span>
               <span class="badge-gpt blue">Power BI</span>
               <span class="badge-gpt blue">Pytest</span>
-            </div>
-          </div>
-          <div class="row">
-            <div class="badge-container">
               <span class="badge-gpt blue">Linux</span>
               <span class="badge-gpt blue">Git</span>
               <span class="badge-gpt blue">Docker</span>
@@ -242,7 +234,6 @@ function JobResume() {
               <span class="badge-gpt blue">Gitlab CI/CD</span>
             </div>
           </div>
-
           <div class="row">
             <div class="badge-container">
               <span class="badge-gpt yellow">NATS</span>
@@ -271,10 +262,6 @@ function JobResume() {
               <span class="badge-gpt blue">Transformers</span>
               <span class="badge-gpt blue">Word Vectorization</span>
               <span class="badge-gpt blue">Sentiment Analysis</span>
-            </div>
-          </div>
-          <div class="row">
-            <div class="badge-container">
               <span class="badge-gpt blue">BERT</span>
               <span class="badge-gpt blue">Graph Theory</span>
               <span class="badge-gpt blue">Timeseries Prediction</span>
@@ -282,10 +269,6 @@ function JobResume() {
               <span class="badge-gpt blue">SQL</span>
               <span class="badge-gpt blue">NoSQL</span>
               <span class="badge-gpt blue">CI/CD</span>
-            </div>
-          </div>
-          <div class="row">
-            <div class="badge-container">
               <span class="badge-gpt blue">XGBoost</span>
               <span class="badge-gpt blue">Ensemble Models</span>
             </div>
@@ -299,10 +282,6 @@ function JobResume() {
               <span class="badge-gpt yellow">Algorithmic Trading</span>
               <span class="badge-gpt yellow">TDD</span>
               <span class="badge-gpt yellow">SOLID</span>
-            </div>
-          </div>
-          <div class="row">
-            <div class="badge-container">
               <span class="badge-gpt yellow">Backend Developement</span>
               <span class="badge-gpt yellow">Scraping</span>
             </div>
@@ -391,7 +370,7 @@ function JobResume() {
             <div class="list-group text-left">
               <div class="list-group-item list-group-flush list-group-item-action flex-column align-items-start academic-proj border-top border-bottm">
                 <div class="w-100 justify-content-between">
-                  <h5 class="mb-1">Advanced Computer Vision With Tensorflow</h5>
+                  <h5 class="mb-1">Advanced Computer Vision With Tensorflow <span class="badge-c-r course">course</span> </h5>
                   <small>2022-2023</small><br />
                   <small>Ongoing</small><br />
                   <small>Coursera/Deeplearning.ai</small>
@@ -400,7 +379,7 @@ function JobResume() {
               </div>
               <div class="list-group-item list-group-flush list-group-item-action flex-column align-items-start academic-proj border-top border-bottm">
                 <div class="w-100 justify-content-between">
-                  <h5 class="mb-1">MLOps Specialization</h5>
+                  <h5 class="mb-1">MLOps Specialization <span class="badge-c-r course">course</span></h5>
                   <small>2022-2023</small><br />
                   <small>2 months (Audit)</small><br />
                   <small>Coursera/Deeplearning.ai</small>
@@ -409,7 +388,7 @@ function JobResume() {
               </div>
               <div class="list-group-item list-group-flush list-group-item-action flex-column align-items-start academic-proj border-top border-bottm">
                 <div class="w-100 justify-content-between">
-                  <h5 class="mb-1">InfoSec Course</h5>
+                  <h5 class="mb-1">InfoSec Course <span class="badge-c-r course">course</span> </h5>
                   <small>2023</small><br />
                   <small>1 Year</small><br />
                   <small>Aasaam</small>
@@ -419,7 +398,7 @@ function JobResume() {
 
               <div class="list-group-item list-group-flush list-group-item-action flex-column align-items-start academic-proj border-top border-bottm">
                 <div class="w-100 justify-content-between">
-                  <h5 class="mb-1">Designing Machine Learning Systems</h5>
+                  <h5 class="mb-1">Designing Machine Learning Systems <span class="badge-c-r book">book</span></h5>
                   <small>Chip Huyen</small>
                   <p class="mb-1"><span class="badge badge-pill">MLOps</span> <span class="badge badge-pill">AutoML</span> <span class="badge badge-pill">Continual Learning</span> <span class="badge badge-pill">Infrastructure</span></p>
                 </div>
@@ -428,7 +407,7 @@ function JobResume() {
 
               <div class="list-group-item list-group-flush list-group-item-action flex-column align-items-start academic-proj border-top border-bottm">
                 <div class="w-100 justify-content-between">
-                  <h5 class="mb-1">Building Microservices</h5>
+                  <h5 class="mb-1">Building Microservices <span class="badge-c-r book">book</span></h5>
                   <small>Sam Newman</small>
                   <p class="mb-1"><span class="badge badge-pill">Modeling</span> <span class="badge badge-pill">Communication Styles</span> <span class="badge badge-pill">Workflow</span> <span class="badge badge-pill">Resiliency</span> <span class="badge badge-pill">Scaling</span></p>
                 </div>
@@ -436,7 +415,17 @@ function JobResume() {
 
               <div class="list-group-item list-group-flush list-group-item-action flex-column align-items-start academic-proj border-top border-bottm">
                 <div class="w-100 justify-content-between">
-                  <h5 class="mb-1">High Performance MySQL</h5>
+                  <h5 class="mb-1">Deep Learning Specialization <span class="badge-c-r course">course</span></h5>
+                  <small>2021</small><br />
+                  <small>3 months (Audit)</small><br />
+                  <small>Coursera/Deeplearning.ai</small>
+                  <p class="mb-1"><span class="badge badge-pill">Model Tuning</span> <span class="badge badge-pill">Architecture Building</span> <span class="badge badge-pill">Tensorflow</span></p>
+                </div>
+              </div>
+
+              <div class="list-group-item list-group-flush list-group-item-action flex-column align-items-start academic-proj border-top border-bottm">
+                <div class="w-100 justify-content-between">
+                  <h5 class="mb-1">High Performance MySQL <span class="badge-c-r book">book</span></h5>
                   <small>Silvia Botros</small>
                   <p class="mb-1"><span class="badge badge-pill">Monitoring</span> <span class="badge badge-pill">Server Optimization</span> <span class="badge badge-pill">Query Optimization</span> <span class="badge badge-pill">Indexing</span> <span class="badge badge-pill">Sharding</span> <span class="badge badge-pill">Replication</span> <span class="badge badge-pill">Scaling</span></p>
                 </div>
@@ -444,7 +433,7 @@ function JobResume() {
 
               <div class="list-group-item list-group-flush list-group-item-action flex-column align-items-start academic-proj border-top border-bottm">
                 <div class="w-100 justify-content-between">
-                  <h5 class="mb-1">Mathematics for Machine Learning</h5>
+                  <h5 class="mb-1">Mathematics for Machine Learning <span class="badge-c-r book">book</span></h5>
                   <small>Marc Peter Deisenroth</small>
                   <p class="mb-1"><span class="badge badge-pill">Mathematics</span> <span class="badge badge-pill">Linear Algebra</span> <span class="badge badge-pill">Vector Calculus</span></p>
                 </div>
@@ -452,7 +441,7 @@ function JobResume() {
 
               <div class="list-group-item list-group-flush list-group-item-action flex-column align-items-start academic-proj border-top border-bottm">
                 <div class="w-100 justify-content-between">
-                  <h5 class="mb-1">Machine Learning Design Patterns</h5>
+                  <h5 class="mb-1">Machine Learning Design Patterns <span class="badge-c-r book">book</span></h5>
                   <small>Valliappa Lakshmanan</small>
                   <p class="mb-1"><span class="badge badge-pill">ML Design Patterns</span></p>
                 </div>
@@ -460,16 +449,7 @@ function JobResume() {
 
               <div class="list-group-item list-group-flush list-group-item-action flex-column align-items-start academic-proj border-top border-bottm">
                 <div class="w-100 justify-content-between">
-                  <h5 class="mb-1">Deep Learning Specialization</h5>
-                  <small>2021</small><br />
-                  <small>3 months (Audit)</small><br />
-                  <small>Coursera/Deeplearning.ai</small>
-                  <p class="mb-1"><span class="badge badge-pill">Model Tuning</span> <span class="badge badge-pill">Architecture Building</span> <span class="badge badge-pill">Tensorflow</span></p>
-                </div>
-              </div>
-              <div class="list-group-item list-group-flush list-group-item-action flex-column align-items-start academic-proj border-top border-bottm">
-                <div class="w-100 justify-content-between">
-                  <h5 class="mb-1">Advanced Algorithmic Thinking and Data Structures</h5>
+                  <h5 class="mb-1">Advanced Algorithmic Thinking and Data Structures <span class="badge-c-r course">course</span></h5>
                   <small>2020</small><br />
                   <small>3 months</small><br />
                   <small>Quera.ir</small>
@@ -478,7 +458,7 @@ function JobResume() {
               </div>
               <div class="list-group-item list-group-flush list-group-item-action flex-column align-items-start academic-proj border-top border-bottm">
                 <div class="w-100 justify-content-between">
-                  <h5 class="mb-1"><a href="https://quera.org/certificate/Vyos8FV5/">AI & Machine learning Problem-Based Course</a></h5>
+                  <h5 class="mb-1"><a href="https://quera.org/certificate/Vyos8FV5/">AI & Machine learning Problem-Based Course</a> <span class="badge-c-r course">course</span></h5>
                   <small>2018</small><br />
                   <small>3 months</small><br />
                   <small>Quera.ir</small>
@@ -487,7 +467,7 @@ function JobResume() {
               </div>
               <div class="list-group-item list-group-flush list-group-item-action flex-column align-items-start academic-proj border-top border-bottm">
                 <div class="w-100 justify-content-between">
-                  <h5 class="mb-1"><a href="https://quera.org/certificate/gLshE6uR/">Advanced Python Programming</a></h5>
+                  <h5 class="mb-1"><a href="https://quera.org/certificate/gLshE6uR/">Advanced Python Programming</a> <span class="badge-c-r course">course</span></h5>
                   <small>2018</small><br />
                   <small>3 months</small><br />
                   <small>Quera.ir</small>
@@ -496,7 +476,7 @@ function JobResume() {
               </div>
               <div class="list-group-item list-group-flush list-group-item-action flex-column align-items-start academic-proj border-top border-bottm">
                 <div class="w-100 justify-content-between">
-                  <h5 class="mb-1">Android and Java Programming Course</h5>
+                  <h5 class="mb-1">Android and Java Programming Course <span class="badge-c-r course">course</span></h5>
                   <small>2019</small><br />
                   <small>56 hours</small><br />
                   <small>Tehran Univeristy</small>

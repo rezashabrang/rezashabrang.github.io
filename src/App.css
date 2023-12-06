@@ -40,9 +40,14 @@
 
 
 .badge-container {
-  display: flex;
   justify-content: left;
   margin-top: 20px;
+  overflow-x: auto;
+}
+
+.badge-container span{
+  display: inline-block;
+  margin: 10px;
 }
 
 .badge-gpt {
@@ -116,4 +121,28 @@ h3 {
   color: #fff;
   /* White color for text on hover */
   box-shadow: 0 0 10px #00509e, 0 0 20px #00509e, 0 0 40px #00509e;
+}
+
+/* Badge for course or reading */
+.badge-c-r {
+  font-size: 10px;
+  font-weight: bold;
+  /* text-transform: uppercase; */
+  padding: 2px 4px;
+  margin-right: 20px;
+  border-radius: 5px;
+  transition: all 0.3s cubic-bezier(0.25, 0.1, 0.25, 1);
+  /* Cubic bezier for the transition */
+}
+
+.book {
+  background-color: #e0ff00;
+}
+
+.course {
+  background-color: #c2ff00;
+}
+
+a {
+  color: #43485c;
 }
