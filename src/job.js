@@ -237,6 +237,7 @@ function JobResume() {
           <div class="row">
             <div class="badge-container">
               <span class="badge-gpt yellow">NATS</span>
+              <span class="badge-gpt yellow">PySpark</span>
               <span class="badge-gpt yellow">Django</span>
               <span class="badge-gpt yellow">PyCaret</span>
               <span class="badge-gpt yellow">NodeJS</span>
@@ -257,6 +258,7 @@ function JobResume() {
               <span class="badge-gpt blue">Machine Learning</span>
               <span class="badge-gpt blue">Transfer Learning</span>
               <span class="badge-gpt blue">Computer Vision</span>
+              <span class="badge-gpt blue">Quantization</span>
               <span class="badge-gpt blue">CNNs</span>
               <span class="badge-gpt blue">NLP</span>
               <span class="badge-gpt blue">Transformers</span>
