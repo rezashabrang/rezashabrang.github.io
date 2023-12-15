@@ -228,7 +228,7 @@ function JobResume() {
               <span class="badge-gpt blue">Git</span>
               <span class="badge-gpt blue">Docker</span>
               <span class="badge-gpt blue">FastAPI</span>
-              <span class="badge-gpt blue">Flask</span>
+              <span class="badge-gpt blue">Multiprocessing</span>
               <span class="badge-gpt blue">NiFi</span>
               <span class="badge-gpt blue">Github Actions</span>
               <span class="badge-gpt blue">Gitlab CI/CD</span>
@@ -241,6 +241,7 @@ function JobResume() {
               <span class="badge-gpt yellow">Django</span>
               <span class="badge-gpt yellow">PyCaret</span>
               <span class="badge-gpt yellow">NodeJS</span>
+              <span class="badge-gpt yellow">Go</span>
               <span class="badge-gpt yellow">MetaFlow</span>
               <span class="badge-gpt yellow">MLFlow</span>
               <span class="badge-gpt yellow">React</span>
@@ -250,7 +251,7 @@ function JobResume() {
 
 
           <div className="section-heading text-center">
-            <h3>Concepts & Models</h3>
+            <h3>Concepts & Skills</h3>
           </div>
 
           <div class="row">
@@ -259,6 +260,9 @@ function JobResume() {
               <span class="badge-gpt blue">Transfer Learning</span>
               <span class="badge-gpt blue">Computer Vision</span>
               <span class="badge-gpt blue">Quantization</span>
+              <span class="badge-gpt blue">Data Engineering</span>
+              <span class="badge-gpt blue">LLMs</span>
+              <span class="badge-gpt blue">Concurrent Computing</span>
               <span class="badge-gpt blue">CNNs</span>
               <span class="badge-gpt blue">NLP</span>
               <span class="badge-gpt blue">Transformers</span>
