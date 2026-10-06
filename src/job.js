@@ -14,7 +14,7 @@ function JobResume() {
                 <button type="button" className="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
                   <i className="fa fa-bars"></i>
                 </button>
-                <Link className="navbar-brand" to="#">Reza Shabrang</Link>
+                <Link className="navbar-brand" to="#">Reza Shabrang Maryaan</Link>
               </div>
 
 
@@ -24,8 +24,7 @@ function JobResume() {
                   <li className="smooth-menu"><a href="#experience">experience</a></li>
                   <li className="smooth-menu"><a href="#skills">skills</a></li>
                   <li className="smooth-menu"><a href="#projects">projects</a></li>
-                  <li className="smooth-menu"><a href="#courses">courses</a></li>
-                  <li className="smooth-menu"><a href="#interests">interests</a></li>
+                  <li className="smooth-menu"><a href="#papers">publication</a></li>
                   <li className="smooth-menu"><a href="#education">education</a></li>
                   <li className="smooth-menu"><a href="#profiles">profile</a></li>
                 </ul>
@@ -43,7 +42,7 @@ function JobResume() {
           <div className="row">
             <div className="col-md-12 text-center">
               <div className="header-text">
-                <h2>Reza Shabrang <br /> Resume</h2>
+                <h2>Reza Shabrang Maryaan <br /> ML Software Engineer</h2>
               </div>
             </div>
           </div>
@@ -54,40 +53,26 @@ function JobResume() {
 
 
       <section id="about" className="about">
-        <div className="section-heading text-center">
-          <h2>about me</h2>
-        </div>
+        <div className="section-heading text-center"><h2>about me</h2></div>
         <div className="container">
           <div className="about-content">
             <div className="row">
               <div className="col-sm-6">
                 <div className="single-about-txt">
-                  <p className='font-weight-bold text-justify'>
-                    <b>I am a python developer working in the field of data science and machine learning. I've studied so much about AI in the past years and I’m always learning state of art cocepts and models in ML like CNN, GANs, Transformers, Transfer Learning, Reinforcement Learning, Few-Shot Learning and MLOps. I have developed and worked on various ML projects, details for some of them can be viewed in projects section.
-                      I'm experienced in data engineering field, developing APIs (FastAPI), working with & querying databases (SQL, NoSQL, Graph).
-                      I also have minor experiences in micro-services, backend development, infosec, software engineering, frontend (React), trading and cryptocurrency.</b>
-                  </p>
+                  <p className="font-weight-bold text-justify"><b>ML Software Engineer with 5+ years delivering production AI, data and distributed software systems end to end. Built multi-tenant AI products, NLP and computer-vision services, 100B-record analytics backends and high-throughput APIs using Python, FastAPI, Node.js, React, Kubernetes, Kafka, ClickHouse and GCP. Combines applied ML and MLOps depth (RAG, transformers, embeddings, forecasting, anomaly detection) with ownership from system design through deployment and observability.</b></p>
                   <div className="row">
-                    <div className="col-sm-6">
-                      <div className="single-about-add-info">
-                        <h3>phone</h3>
-                        <p>+98-937-820-4977</p>
-                      </div>
-                    </div>
-                    <div className="col-sm-6">
+                    <div className="col-sm-12">
                       <div className="single-about-add-info">
                         <h3>email</h3>
                         <p>rezashabrang.m@gmail.com</p>
                       </div>
                     </div>
                   </div>
+                  <p><a className="btn btn-primary" href="/cv.pdf" download>Download CV (PDF)</a></p>
                 </div>
               </div>
               <div className="col-sm-offset-1 col-sm-5">
-                <div className="single-about-img">
-                  <img src="assets/images/about/me.png" alt="profile_image" />
-                </div>
-
+                <div className="single-about-img"><img src="assets/images/about/me.png" alt="profile_image" /></div>
               </div>
             </div>
           </div>
@@ -95,20 +80,15 @@ function JobResume() {
       </section>
 
       <section id="experience" className="experience">
-        <div className="section-heading text-center">
-          <h2>Working experience</h2>
-        </div>
-        <div className="container">
-          <div className="experience-content">
-            <div className="main-timeline">
-              <ul>
+        <div className="section-heading text-center"><h2>Working experience</h2></div>
+        <div className="container"><div className="experience-content"><div className="main-timeline"><ul>
                 <li>
                   <div className="single-timeline-box fix">
                     <div className="row">
                       <div className="col-md-5">
                         <div className="experience-time text-right">
                           <h2>2021 - Present</h2>
-                          <h3>ML Engineer</h3>
+                          <h3>Data Scientist, ML Software Engineer, Team Lead</h3>
                         </div>
                       </div>
                       <div className="col-md-offset-1 col-md-5">
@@ -116,18 +96,15 @@ function JobResume() {
                           <div className="timeline-content">
                             <h4 className="title">
                               <span><i className="fa fa-circle" aria-hidden="true"></i></span>
-                              Aasaam
+                              Asam
                             </h4>
-                            <p className="description">
-                              Data engineering, Time Series prediction for Covid density, working with Transformers, word vectors, performing transfer learning & sentiment analysis, image processing, working with graph data structure, utilizing messaging systems, building company MLOps ecosystem.
-                            </p>
+                            <p className="description">Built and operated 20+ production systems across AI products, NLP/ML services, data platforms and distributed APIs for media and fintech clients. Lead a four-person delivery group while staying hands-on in Python/FastAPI, Node.js, React, PostgreSQL, Redis, Kafka, Docker and Kubernetes on GCP. Standardize ML delivery with MLflow and Metaflow.</p>
                           </div>
                         </div>
                       </div>
                     </div>
                   </div>
                 </li>
-
                 <li>
                   <div className="single-timeline-box fix">
                     <div className="row">
@@ -144,24 +121,20 @@ function JobResume() {
                               <span><i className="fa fa-circle" aria-hidden="true"></i></span>
                               QuantRisk
                             </h4>
-                            <h5>Remote, USA</h5>
-                            <p className="description">
-                              Researching US electric market, identifying data and extracting, transforming and loading market data.
-                            </p>
+                            <p className="description">Researched the US electricity market and designed ETL workflows to collect, transform and load market data for downstream analytics.</p>
                           </div>
                         </div>
                       </div>
                     </div>
                   </div>
                 </li>
-
                 <li>
                   <div className="single-timeline-box fix">
                     <div className="row">
                       <div className="col-md-5">
                         <div className="experience-time text-right">
                           <h2>2019 - 2020</h2>
-                          <h3>Business Intelligence Developer</h3>
+                          <h3>BI Developer</h3>
                         </div>
                       </div>
                       <div className="col-md-offset-1 col-md-5">
@@ -171,422 +144,140 @@ function JobResume() {
                               <span><i className="fa fa-circle" aria-hidden="true"></i></span>
                               AhanOnline
                             </h4>
-                            <p className="description">
-                              Working with sql-server, power BI and python, writing complex queries, API handling and python scraping, implementing an ARIMA model for predicting steel and iron price, building dashboards and analyzing customer data, working with SSMS, SSIS and SSRS.
-                            </p>
+                            <p className="description">Built BI workflows, dashboards and data integrations with SQL Server, Power BI, SSIS, SSRS and Python; delivered customer analytics and an ARIMA model for steel and iron price forecasting.</p>
                           </div>
                         </div>
                       </div>
                     </div>
                   </div>
                 </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-
+              </ul></div></div></div>
       </section>
-
 
       <section id="skills" className="education">
-        <div className="section-heading text-center">
-          <h2>Skills</h2>
-        </div>
-        <br></br>
+        <div className="section-heading text-center"><h2>Skills</h2></div>
+        <br />
         <div className="container">
-          <div class="row">
-            <div class="badge-container">
-              <span class="badge-gpt blue">Experienced</span>
-              <span class="badge-gpt yellow">Minor Experience</span>
+        <div className="section-heading text-center"><h3>ML and AI</h3></div>
+        <div className="row"><div className="badge-container">
+              <span className="badge-gpt blue">Python</span>
+              <span className="badge-gpt blue">PyTorch</span>
+              <span className="badge-gpt blue">TensorFlow</span>
+              <span className="badge-gpt blue">Transformers</span>
+              <span className="badge-gpt blue">BERT</span>
+              <span className="badge-gpt blue">RAG</span>
+              <span className="badge-gpt blue">LangGraph</span>
+              <span className="badge-gpt blue">Vector Search</span>
+              <span className="badge-gpt blue">Milvus</span>
+              <span className="badge-gpt blue">Isolation Forest</span>
+              <span className="badge-gpt blue">Darts</span>
+              <span className="badge-gpt blue">XGBoost</span>
+        </div></div>
+        <div className="section-heading text-center"><h3>Software Engineering</h3></div>
+        <div className="row"><div className="badge-container">
+              <span className="badge-gpt blue">FastAPI</span>
+              <span className="badge-gpt blue">Node.js</span>
+              <span className="badge-gpt blue">React</span>
+              <span className="badge-gpt blue">TypeScript</span>
+              <span className="badge-gpt blue">REST APIs</span>
+              <span className="badge-gpt blue">System Design</span>
+              <span className="badge-gpt blue">Distributed Systems</span>
+        </div></div>
+        <div className="section-heading text-center"><h3>Data and Messaging</h3></div>
+        <div className="row"><div className="badge-container">
+              <span className="badge-gpt blue">PostgreSQL</span>
+              <span className="badge-gpt blue">MySQL</span>
+              <span className="badge-gpt blue">ClickHouse</span>
+              <span className="badge-gpt blue">MongoDB</span>
+              <span className="badge-gpt blue">Redis</span>
+              <span className="badge-gpt blue">Kafka</span>
+              <span className="badge-gpt blue">NATS</span>
+              <span className="badge-gpt blue">RabbitMQ</span>
+              <span className="badge-gpt blue">Airflow</span>
+        </div></div>
+        <div className="section-heading text-center"><h3>MLOps and DevOps</h3></div>
+        <div className="row"><div className="badge-container">
+              <span className="badge-gpt blue">Kubernetes</span>
+              <span className="badge-gpt blue">Docker</span>
+              <span className="badge-gpt blue">CI/CD</span>
+              <span className="badge-gpt blue">GCP</span>
+              <span className="badge-gpt blue">MLflow</span>
+              <span className="badge-gpt blue">Metaflow</span>
+              <span className="badge-gpt blue">Observability</span>
+        </div></div>
+        <div className="section-heading text-center"><h3>Architecture</h3></div>
+        <div className="row"><div className="badge-container">
+              <span className="badge-gpt blue">Multi-Tenancy</span>
+              <span className="badge-gpt blue">Event-Driven Architecture</span>
+              <span className="badge-gpt blue">Microservices</span>
+              <span className="badge-gpt blue">RAG Systems</span>
+              <span className="badge-gpt blue">Workflow Orchestration</span>
+        </div></div>
 
-            </div>
-
-            <div class="badge-container">
-            </div>
-          </div>
-          <div className="section-heading text-center">
-            <h3>Tools & Libraries</h3>
-          </div>
-
-          <div class="row">
-            <div class="badge-container">
-              <span class="badge-gpt blue">Python</span>
-              <span class="badge-gpt blue">Tensorflow</span>
-              <span class="badge-gpt blue">Transformers (Huggingface Library)</span>
-              <span class="badge-gpt blue">Sklearn</span>
-              <span class="badge-gpt blue">NetworkX</span>
-              <span class="badge-gpt blue">OpenCV</span>
-              <span class="badge-gpt blue">DARTS</span>
-              <span class="badge-gpt blue">PROPHET</span>
-              <span class="badge-gpt blue">ArangoDB</span>
-              <span class="badge-gpt blue">MongoDB</span>
-              <span class="badge-gpt blue">MySQL</span>
-              <span class="badge-gpt blue">PostgreSQL</span>
-              <span class="badge-gpt blue">Power BI</span>
-              <span class="badge-gpt blue">Pytest</span>
-              <span class="badge-gpt blue">Linux</span>
-              <span class="badge-gpt blue">Git</span>
-              <span class="badge-gpt blue">Docker</span>
-              <span class="badge-gpt blue">FastAPI</span>
-              <span class="badge-gpt blue">Multiprocessing</span>
-              <span class="badge-gpt blue">NiFi</span>
-              <span class="badge-gpt blue">Github Actions</span>
-              <span class="badge-gpt blue">Gitlab CI/CD</span>
-            </div>
-          </div>
-          <div class="row">
-            <div class="badge-container">
-              <span class="badge-gpt yellow">NATS</span>
-              <span class="badge-gpt yellow">PySpark</span>
-              <span class="badge-gpt yellow">Django</span>
-              <span class="badge-gpt yellow">PyCaret</span>
-              <span class="badge-gpt yellow">NodeJS</span>
-              <span class="badge-gpt yellow">Go</span>
-              <span class="badge-gpt yellow">MetaFlow</span>
-              <span class="badge-gpt yellow">MLFlow</span>
-              <span class="badge-gpt yellow">React</span>
-            </div>
-          </div>
-          <br></br>
-
-
-          <div className="section-heading text-center">
-            <h3>Concepts & Skills</h3>
-          </div>
-
-          <div class="row">
-            <div class="badge-container">
-              <span class="badge-gpt blue">Machine Learning</span>
-              <span class="badge-gpt blue">Transfer Learning</span>
-              <span class="badge-gpt blue">Computer Vision</span>
-              <span class="badge-gpt blue">Quantization</span>
-              <span class="badge-gpt blue">Data Engineering</span>
-              <span class="badge-gpt blue">LLMs</span>
-              <span class="badge-gpt blue">Concurrent Computing</span>
-              <span class="badge-gpt blue">CNNs</span>
-              <span class="badge-gpt blue">NLP</span>
-              <span class="badge-gpt blue">Transformers</span>
-              <span class="badge-gpt blue">Word Vectorization</span>
-              <span class="badge-gpt blue">Sentiment Analysis</span>
-              <span class="badge-gpt blue">BERT</span>
-              <span class="badge-gpt blue">Graph Theory</span>
-              <span class="badge-gpt blue">Timeseries Prediction</span>
-              <span class="badge-gpt blue">Data Visualization</span>
-              <span class="badge-gpt blue">SQL</span>
-              <span class="badge-gpt blue">NoSQL</span>
-              <span class="badge-gpt blue">CI/CD</span>
-              <span class="badge-gpt blue">XGBoost</span>
-              <span class="badge-gpt blue">Ensemble Models</span>
-            </div>
-          </div>
-          <div class="row">
-            <div class="badge-container">
-              <span class="badge-gpt yellow">MLOPS</span>
-              <span class="badge-gpt yellow">InfoSec</span>
-              <span class="badge-gpt yellow">Microservices</span>
-              <span class="badge-gpt yellow">Cryptocurrencies</span>
-              <span class="badge-gpt yellow">Algorithmic Trading</span>
-              <span class="badge-gpt yellow">TDD</span>
-              <span class="badge-gpt yellow">SOLID</span>
-              <span class="badge-gpt yellow">Backend Developement</span>
-              <span class="badge-gpt yellow">Scraping</span>
-            </div>
-          </div>
+        <div className="section-heading text-center"><br /><h3>Languages</h3></div>
+        <div className="row"><div className="text-center">English (C1, Duolingo English Test 140, January 2025)<br />French (beginner)</div></div>
+        <br /><br />
         </div>
-
-        <div className="section-heading text-center">
-          <br></br>
-          <br></br>
-
-          <h3>Languages</h3>
-        </div>
-        <br></br>
-        <div className='row'>
-          <span class="text-center">English (Professional Proficiency)</span>
-          <div className='text-center'><small class="text-center">TOEFL Results -{'>'} Reading: 26, Listening: 26, Speaking: 22, Writing: 23</small></div>
-        </div>
-        <br></br>
-        <div className='row'>
-          <span class="text-center">French (Elementry)</span>
-        </div>
-        <br></br>
-        <br></br>
-
       </section>
-
 
       <section id="projects" className="about">
-        <div className="section-heading text-center">
-          <h2>Projects</h2>
-        </div>
-        <br></br><br></br>
+        <div className="section-heading text-center"><h2>Projects</h2></div>
+        <br /><br />
         <div className="container">
-          <div class="list-group text-left">
-            <div class="list-group-item list-group-flush list-group-item-action flex-column align-items-start academic-proj border-top border-bottm">
-              <div class="w-100 justify-content-between">
-                <h5 class="mb-1">Aasaam Core NLP and MLOps Ecosystem</h5>
-              </div>
-              <p class="mb-1">Implementing a core NLP system for various goals like sentiment analysis, NER, tag generation and etc for aasaam CMS using Python, FastAPI, MySQL, Label Studio, MongoDB, React, NGINX and leveraging MLOps tools (MLFlow and Metaflow) for standardizing experiments and pipeline orchestration of machine learning workflows.</p>
-              <p class="mb-1"><span class="badge badge-pill">MLOps</span> <span class="badge badge-pill">NLP</span> <span class="badge badge-pill">System Design</span> <span class="badge badge-pill">React</span> <span class="badge badge-pill">Docker</span></p>
+          <div className="list-group text-left">
+            <div className="list-group-item list-group-flush list-group-item-action flex-column align-items-start academic-proj border-top border-bottm">
+              <div className="w-100 justify-content-between"><h5 className="mb-1">Toocka: Multi-tenant AI Assistant and News Generation</h5></div>
+              <p className="mb-1">Multi-tenant AI product suite on shared Kubernetes infrastructure. A LangGraph agentic assistant with per-tenant RAG knowledge bases (30+ workspaces), and a research, draft, review and publishing pipeline for automated news generation (hundreds of articles per day across 10+ media clients). <a href="https://toocka.io/" target="_blank" rel="noreferrer">toocka.io</a></p>
+              <p className="mb-1"><span className="badge badge-pill">FastAPI</span> <span className="badge badge-pill">LangGraph</span> <span className="badge badge-pill">RAG</span> <span className="badge badge-pill">Postgres</span> <span className="badge badge-pill">Redis</span> <span className="badge badge-pill">Kubernetes</span></p>
             </div>
-            <div class="list-group-item list-group-flush list-group-item-action flex-column align-items-start academic-proj border-top border-bottm">
-              <div class="w-100 justify-content-between">
-                <h5 class="mb-1">Penguin Keyword Mapper System</h5>
-              </div>
-              <p class="mb-1">Building a system with micro-service architecture using NATS, ArangoDB, NodeJS and Python for clustering a large list of keywords and phrases by using graph data structure and unsupervised graph clustering method (spectral clustering)</p>
-              <p class="mb-1"><span class="badge badge-pill">Graph Theory</span> <span class="badge badge-pill">Spectral Clustering</span> <span class="badge badge-pill">ArangoDB</span> <span class="badge badge-pill">NetworkX</span> <span class="badge badge-pill">NATS</span> <span class="badge badge-pill">NodeJS</span></p>
+            <div className="list-group-item list-group-flush list-group-item-action flex-column align-items-start academic-proj border-top border-bottm">
+              <div className="w-100 justify-content-between"><h5 className="mb-1">Kifpool: Cryptocurrency Exchange Data Platform</h5></div>
+              <p className="mb-1">Event-driven data stack for a crypto exchange: Kafka, NATS and RabbitMQ messaging, Airflow orchestration, MySQL to ClickHouse CDC replication of tens of millions of daily events, Metabase and Streamlit BI, plus anomaly detection (Isolation Forest, Darts). <a href="https://kifpool.me/" target="_blank" rel="noreferrer">kifpool.me</a></p>
+              <p className="mb-1"><span className="badge badge-pill">Kafka</span> <span className="badge badge-pill">ClickHouse</span> <span className="badge badge-pill">Airflow</span> <span className="badge badge-pill">CDC</span> <span className="badge badge-pill">Metabase</span> <span className="badge badge-pill">Anomaly Detection</span></p>
             </div>
-
-            <div class="list-group-item list-group-flush list-group-item-action flex-column align-items-start academic-proj border-top border-bottm">
-              <div class="w-100 justify-content-between">
-                <h5 class="mb-1">Transfer learning & Sentiment Analysis (Comment Classification) Using Transformers Models (BERT)</h5>
-              </div>
-              <p class="mb-1">Re-Training a BERT persian Language model on comment data and classifying offensive comments with an accuracy of 79%. </p>
-              <p class="mb-1"><span class="badge badge-pill">Transfer Learning</span> <span class="badge badge-pill">Word Vectorization</span> <span class="badge badge-pill">BERT</span> <span class="badge badge-pill">Sentiment Analysis</span> <span class="badge badge-pill">Transformers</span> <span class="badge badge-pill">NLP</span></p>
+            <div className="list-group-item list-group-flush list-group-item-action flex-column align-items-start academic-proj border-top border-bottm">
+              <div className="w-100 justify-content-between"><h5 className="mb-1">Shahin: ClickHouse Observability Platform</h5></div>
+              <p className="mb-1">Real-time analytics and observability platform for news publishers. Built the ClickHouse backbone with replication and sharding serving 100B+ records, plus ingestion and query APIs and a Vue dashboard. <a href="https://shahin.live" target="_blank" rel="noreferrer">shahin.live</a></p>
+              <p className="mb-1"><span className="badge badge-pill">ClickHouse</span> <span className="badge badge-pill">FastAPI</span> <span className="badge badge-pill">Node.js</span> <span className="badge badge-pill">Vue</span> <span className="badge badge-pill">PostgreSQL</span></p>
             </div>
-
-            <div class="list-group-item list-group-flush list-group-item-action flex-column align-items-start academic-proj border-top border-bottm">
-              <div class="w-100 justify-content-between">
-                <h5 class="mb-1">Covid Density Prediction</h5>
-              </div>
-              <p class="mb-1">Predicting the density of corona per region by researching various time-series models in DARTS python library.</p>
-              <p class="mb-1"><span class="badge badge-pill">Time Series</span> <span class="badge badge-pill">PROPHET</span> <span class="badge badge-pill">RNN</span> <span class="badge badge-pill">LSTM</span> <span class="badge badge-pill">DARTS</span></p>
+            <div className="list-group-item list-group-flush list-group-item-action flex-column align-items-start academic-proj border-top border-bottm">
+              <div className="w-100 justify-content-between"><h5 className="mb-1">Penguin Keyword Mapper</h5></div>
+              <p className="mb-1">Graph-based keyword intelligence service: large keyword sets modelled as weighted graphs and clustered with spectral methods, using NATS-connected Node.js and Python microservices over ArangoDB.</p>
+              <p className="mb-1"><span className="badge badge-pill">Spectral Clustering</span> <span className="badge badge-pill">ArangoDB</span> <span className="badge badge-pill">NetworkX</span> <span className="badge badge-pill">NATS</span> <span className="badge badge-pill">Node.js</span></p>
             </div>
-
-            <div class="list-group-item list-group-flush list-group-item-action flex-column align-items-start academic-proj border-top border-bottm">
-              <div class="w-100 justify-content-between">
-                <h5 class="mb-1">Predicting Project Cost Using Decision Tree Regressor, Random Forest, XGBoost & Neural Networks Using MSP Files Database</h5>
-              </div>
-              <p class="mb-1">In this thesis data was extracted from msp files, preprocessed, analyzed and after extracting insights several models were trained on it. The results shows that using ML methods in cost prediction outperforms traditional predictions.<br /> <a href='https://github.com/rezashabrang/construction-prediction'>GITHUB LINK</a></p>
-              <p class="mb-1"><span class="badge badge-pill">Bachelor Thesis</span> <span class="badge badge-pill">Decision Tree</span> <span class="badge badge-pill">XGBoost</span> <span class="badge badge-pill">Neural Networks</span></p>
+            <div className="list-group-item list-group-flush list-group-item-action flex-column align-items-start academic-proj border-top border-bottm">
+              <div className="w-100 justify-content-between"><h5 className="mb-1">Persian Comment Classification</h5></div>
+              <p className="mb-1">Fine-tuned a Persian BERT model with transfer learning to classify offensive comments for content moderation, reaching 90% accuracy.</p>
+              <p className="mb-1"><span className="badge badge-pill">BERT</span> <span className="badge badge-pill">Transformers</span> <span className="badge badge-pill">Transfer Learning</span> <span className="badge badge-pill">NLP</span></p>
+            </div>
+            <div className="list-group-item list-group-flush list-group-item-action flex-column align-items-start academic-proj border-top border-bottm">
+              <div className="w-100 justify-content-between"><h5 className="mb-1">Image and Content De-duplication</h5></div>
+              <p className="mb-1">Embedding-based image and text de-duplication with vector search; benchmarked ResNet and VGG-16 for images and BGE-M3 and Sentence-BERT for text.</p>
+              <p className="mb-1"><span className="badge badge-pill">Milvus</span> <span className="badge badge-pill">BGE-M3</span> <span className="badge badge-pill">Sentence-BERT</span> <span className="badge badge-pill">ResNet</span> <span className="badge badge-pill">VGG-16</span></p>
+            </div>
+            <div className="list-group-item list-group-flush list-group-item-action flex-column align-items-start academic-proj border-top border-bottm">
+              <div className="w-100 justify-content-between"><h5 className="mb-1">COVID Density Forecasting</h5></div>
+              <p className="mb-1">Research project on regional COVID density forecasting comparing Prophet, RNN and LSTM models in Darts with backtesting, reaching 5% MAPE.</p>
+              <p className="mb-1"><span className="badge badge-pill">Darts</span> <span className="badge badge-pill">Prophet</span> <span className="badge badge-pill">RNN</span> <span className="badge badge-pill">LSTM</span> <span className="badge badge-pill">Time Series</span></p>
+            </div>
+            <div className="list-group-item list-group-flush list-group-item-action flex-column align-items-start academic-proj border-top border-bottm">
+              <div className="w-100 justify-content-between"><h5 className="mb-1">Bachelor Thesis: Construction Project Cost Prediction</h5></div>
+              <p className="mb-1">Extracted structured features from Microsoft Project files and compared decision trees, random forests, XGBoost and neural networks, improving on traditional forecasting by 20%. <a href="https://github.com/rezashabrang/construction-prediction">GitHub</a></p>
+              <p className="mb-1"><span className="badge badge-pill">Decision Trees</span> <span className="badge badge-pill">Random Forest</span> <span className="badge badge-pill">XGBoost</span> <span className="badge badge-pill">Neural Networks</span></p>
             </div>
           </div>
         </div>
-
       </section>
 
-
-      <section id="courses" className="education">
-        <div className="section-heading text-center">
-          <h2>Courses & Reading</h2>
+      <section id="papers" className="education">
+        <div className="section-heading text-center"><h2>Publication</h2></div>
+        <br />
+        <div className="container text-center">
+          <p><b>Automated LOINC Mapping of Persian-English Mixed-Language Clinical Laboratory Test Names</b><br />
+          Co-author. Studies in Health Technology and Informatics, 2026.<br />
+          <a href="https://doi.org/10.3233/SHTI260091" target="_blank" rel="noreferrer">DOI: 10.3233/SHTI260091</a></p>
         </div>
-        <br></br><br></br>
-        <div className="container">
-          <div class="list-group text-left">
-            <div class="list-group text-left">
-              <div class="list-group-item list-group-flush list-group-item-action flex-column align-items-start academic-proj border-top border-bottm">
-                <div class="w-100 justify-content-between">
-                  <h5 class="mb-1">Advanced Computer Vision With Tensorflow <span class="badge-c-r course">course</span> </h5>
-                  <small>2022-2023</small><br />
-                  <small>Ongoing</small><br />
-                  <small>Coursera/Deeplearning.ai</small>
-                  <p class="mb-1"><span class="badge badge-pill">Tensorflow</span> <span class="badge badge-pill">Saliency</span> <span class="badge badge-pill">Object Detection</span> <span class="badge badge-pill">Image Segmentation</span> <span class="badge badge-pill">Image Interpretation</span></p>
-                </div>
-              </div>
-              <div class="list-group-item list-group-flush list-group-item-action flex-column align-items-start academic-proj border-top border-bottm">
-                <div class="w-100 justify-content-between">
-                  <h5 class="mb-1">MLOps Specialization <span class="badge-c-r course">course</span></h5>
-                  <small>2022-2023</small><br />
-                  <small>2 months (Audit)</small><br />
-                  <small>Coursera/Deeplearning.ai</small>
-                  <p class="mb-1"><span class="badge badge-pill">Tensorflow</span> <span class="badge badge-pill">Concept & Data Drift</span> <span class="badge badge-pill">Pipeline Structuring</span> <span class="badge badge-pill">Model & Data Registry</span> <span class="badge badge-pill">Model Monitoring</span></p>
-                </div>
-              </div>
-              <div class="list-group-item list-group-flush list-group-item-action flex-column align-items-start academic-proj border-top border-bottm">
-                <div class="w-100 justify-content-between">
-                  <h5 class="mb-1">InfoSec Course <span class="badge-c-r course">course</span> </h5>
-                  <small>2023</small><br />
-                  <small>1 Year</small><br />
-                  <small>Aasaam</small>
-                  <p class="mb-1"><span class="badge badge-pill">Recon</span> <span class="badge badge-pill">Burp Suite</span> <span class="badge badge-pill">XSS-Based Attacks</span> <span class="badge badge-pill">SQLi</span> <span class="badge badge-pill">IDOR</span> <span class="badge badge-pill">Logical Hunting</span> <span class="badge badge-pill">APIs</span></p>
-                </div>
-              </div>
-
-              <div class="list-group-item list-group-flush list-group-item-action flex-column align-items-start academic-proj border-top border-bottm">
-                <div class="w-100 justify-content-between">
-                  <h5 class="mb-1">Designing Machine Learning Systems <span class="badge-c-r book">book</span></h5>
-                  <small>Chip Huyen</small>
-                  <p class="mb-1"><span class="badge badge-pill">MLOps</span> <span class="badge badge-pill">AutoML</span> <span class="badge badge-pill">Continual Learning</span> <span class="badge badge-pill">Infrastructure</span></p>
-                </div>
-              </div>
-
-              <div class="list-group-item list-group-flush list-group-item-action flex-column align-items-start academic-proj border-top border-bottm">
-                <div class="w-100 justify-content-between">
-                  <h5 class="mb-1">Deep Learning Specialization <span class="badge-c-r course">course</span></h5>
-                  <small>2021</small><br />
-                  <small>3 months (Audit)</small><br />
-                  <small>Coursera/Deeplearning.ai</small>
-                  <p class="mb-1"><span class="badge badge-pill">Model Tuning</span> <span class="badge badge-pill">Architecture Building</span> <span class="badge badge-pill">Tensorflow</span></p>
-                </div>
-              </div>
-
-              <div class="list-group-item list-group-flush list-group-item-action flex-column align-items-start academic-proj border-top border-bottm">
-                <div class="w-100 justify-content-between">
-                  <h5 class="mb-1">Building Microservices <span class="badge-c-r book">book</span></h5>
-                  <small>Sam Newman</small>
-                  <p class="mb-1"><span class="badge badge-pill">Modeling</span> <span class="badge badge-pill">Communication Styles</span> <span class="badge badge-pill">Workflow</span> <span class="badge badge-pill">Resiliency</span> <span class="badge badge-pill">Scaling</span></p>
-                </div>
-              </div>
-
-              <div class="list-group-item list-group-flush list-group-item-action flex-column align-items-start academic-proj border-top border-bottm">
-                <div class="w-100 justify-content-between">
-                  <h5 class="mb-1">High Performance MySQL <span class="badge-c-r book">book</span></h5>
-                  <small>Silvia Botros</small>
-                  <p class="mb-1"><span class="badge badge-pill">Monitoring</span> <span class="badge badge-pill">Server Optimization</span> <span class="badge badge-pill">Query Optimization</span> <span class="badge badge-pill">Indexing</span> <span class="badge badge-pill">Sharding</span> <span class="badge badge-pill">Replication</span> <span class="badge badge-pill">Scaling</span></p>
-                </div>
-              </div>
-
-              <div class="list-group-item list-group-flush list-group-item-action flex-column align-items-start academic-proj border-top border-bottm">
-                <div class="w-100 justify-content-between">
-                  <h5 class="mb-1">Advanced Algorithmic Thinking and Data Structures <span class="badge-c-r course">course</span></h5>
-                  <small>2020</small><br />
-                  <small>3 months</small><br />
-                  <small>Quera.ir</small>
-                  <p class="mb-1"><span class="badge badge-pill">Algorithms</span> <span class="badge badge-pill">Data Structures</span> <span class="badge badge-pill">Time & Space Complexity</span></p>
-                </div>
-              </div>
-
-              <div class="list-group-item list-group-flush list-group-item-action flex-column align-items-start academic-proj border-top border-bottm">
-                <div class="w-100 justify-content-between">
-                  <h5 class="mb-1">Mathematics for Machine Learning <span class="badge-c-r book">book</span></h5>
-                  <small>Marc Peter Deisenroth</small>
-                  <p class="mb-1"><span class="badge badge-pill">Mathematics</span> <span class="badge badge-pill">Linear Algebra</span> <span class="badge badge-pill">Vector Calculus</span></p>
-                </div>
-              </div>
-
-              <div class="list-group-item list-group-flush list-group-item-action flex-column align-items-start academic-proj border-top border-bottm">
-                <div class="w-100 justify-content-between">
-                  <h5 class="mb-1">Machine Learning Design Patterns <span class="badge-c-r book">book</span></h5>
-                  <small>Valliappa Lakshmanan</small>
-                  <p class="mb-1"><span class="badge badge-pill">ML Design Patterns</span></p>
-                </div>
-              </div>
-
-              <div class="list-group-item list-group-flush list-group-item-action flex-column align-items-start academic-proj border-top border-bottm">
-                <div class="w-100 justify-content-between">
-                  <h5 class="mb-1"><a target='_blank' href="https://quera.org/certificate/Vyos8FV5/">AI & Machine learning Problem-Based Course</a> <span class="badge-c-r course">course</span></h5>
-                  <small>2018</small><br />
-                  <small>3 months</small><br />
-                  <small>Quera.ir</small>
-                  <p class="mb-1"><span class="badge badge-pill">scikit-learn</span> <span class="badge badge-pill">XGBoost</span> <span class="badge badge-pill">Classical ML</span></p>
-                </div>
-              </div>
-              <div class="list-group-item list-group-flush list-group-item-action flex-column align-items-start academic-proj border-top border-bottm">
-                <div class="w-100 justify-content-between">
-                  <h5 class="mb-1"><a target='_blank' href="https://quera.org/certificate/gLshE6uR/">Advanced Python Programming</a> <span class="badge-c-r course">course</span></h5>
-                  <small>2018</small><br />
-                  <small>3 months</small><br />
-                  <small>Quera.ir</small>
-                  <p class="mb-1"><span class="badge badge-pill">Python</span></p>
-                </div>
-              </div>
-              <div class="list-group-item list-group-flush list-group-item-action flex-column align-items-start academic-proj border-top border-bottm">
-                <div class="w-100 justify-content-between">
-                  <h5 class="mb-1">Android and Java Programming Course <span class="badge-c-r course">course</span></h5>
-                  <small>2019</small><br />
-                  <small>56 hours</small><br />
-                  <small>Tehran Univeristy</small>
-                  <p class="mb-1"><span class="badge badge-pill">Android Studio</span> <span class="badge badge-pill">Java</span></p>
-                </div>
-              </div>
-
-            </div>
-          </div>
-        </div>
-
       </section>
-
-
-      <section id="interests" className="profiles">
-        <div className="profiles-details">
-          <div className="section-heading text-center">
-            <h2>Interests</h2>
-          </div>
-          <div className="container">
-            <div className="profiles-content">
-              <div className="row">
-                <div className="col-sm-4">
-                  <div className="single-profile">
-                    <div className="profile-txt">
-                      <div className="profile-icon-name"><b>Machine Learning</b></div>
-                    </div>
-                    <div className="single-profile-overlay">
-                      <div className="profile-txt">
-                        <div className="profile-icon-name"><b>Machine Learning</b></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-sm-4">
-                  <div className="single-profile">
-                    <div className="profile-txt">
-                      <div className="profile-icon-name"><b>Deep Learning</b></div>
-                    </div>
-                    <div className="single-profile-overlay">
-                      <div className="profile-txt">
-                        <div className="profile-icon-name"><b>Deep Learning</b></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-sm-4">
-                  <div className="single-profile profile-no-border">
-                    <div className="profile-txt">
-                      <div className="profile-icon-name"><b>Software Engineering</b></div>
-                    </div>
-                    <div className="single-profile-overlay">
-                      <div className="profile-txt">
-                        <div className="profile-icon-name"><b>Software Engineering</b></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="profile-border"></div>
-              <div className="row">
-                <div className="col-sm-4">
-                  <div className="single-profile">
-                    <div className="profile-txt">
-                      <div className="profile-icon-name"><b>Computer Vision</b></div>
-                    </div>
-                    <div className="single-profile-overlay">
-                      <div className="profile-txt">
-                        <div className="profile-icon-name"><b>Computer Vision</b></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-sm-4">
-                  <div className="single-profile">
-                    <div className="profile-txt">
-                      <div className="profile-icon-name"><b>MLOps</b></div>
-                    </div>
-                    <div className="single-profile-overlay">
-                      <div className="profile-txt">
-                        <div className="profile-icon-name"><b>MLOps</b></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-sm-4">
-                  <div className="single-profile profile-no-border">
-                    <div className="profile-txt">
-                      <div className="profile-icon-name"><b>Graph Networks</b></div>
-                    </div>
-                    <div className="single-profile-overlay">
-                      <div className="profile-txt">
-                        <div className="profile-icon-name"><b>Graph Networks</b></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </section>
-
 
       <section id="education" className="education">
         <div className="section-heading text-center">
@@ -608,9 +299,10 @@ function JobResume() {
                   <div className="timeline">
                     <div className="timeline-content">
                       <h4 className="title">
-                        Amirkabir Univeristy of Technology
+                        Amirkabir University of Technology
                       </h4>
                       <p className="description">
+                        Overall: 16.77/20<br />
                         Cumulative GPA: 3.5/4 <br />
                         Last 56 Units GPA: 3.7/4
                       </p>
@@ -738,4 +430,3 @@ function JobResume() {
 }
 
 export default JobResume;
-
